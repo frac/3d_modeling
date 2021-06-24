@@ -31,13 +31,13 @@ Parameters
 $fn=64;
 
 //outside length without ribs
-outSideLength=45;
+outSideLength=100;
 
 //outside width without ribs
-outSideWidth=245;
+outSideWidth=100;
 
 //outside height
-outSideHeight=40;
+outSideHeight=70;
 
 //shell thickness
 shellThickness=3; // [3:9]
