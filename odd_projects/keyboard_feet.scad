@@ -1,12 +1,12 @@
-ht = 22;
+ht = 23;
 $fn=100;
 rotate([-90,0,0])
 difference(){
     
     union(){
-
-        translate([0,0,-2])
-        cylinder(h=26, d=3);
+        extra = 2;
+        translate([0,0,-extra])
+        cylinder(h=ht+2*extra, d=3);
 
         hull(){
         cylinder(h=ht, d=6.25);
