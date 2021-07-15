@@ -1,4 +1,5 @@
-ring = 14.07;
+//ring = 14.48;
+ring = 14.68;
 wd = 2;
 detail = 7.5;
 detailsz = 6;
